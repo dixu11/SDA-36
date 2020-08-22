@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Notatki {
+public class Zad10 {
 
   /*  Zad 10
     Napisz program, który zapyta użytkownika ile notatek potrzebuje i stworzy tablicę tekstów o wpisanej wielkości.
