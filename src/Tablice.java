@@ -31,18 +31,8 @@ public class Tablice {
 
         System.out.println(Arrays.toString(liczby));
 
-
-
        /* for (int liczba : liczby) {
             System.out.println(liczba);
         }*/
-
-
-
-
-
-
-
-
     }
 }
