@@ -1,3 +1,5 @@
+package podstawy;
+
 public class Zad8 {
  /*   Zad 8
     Napisz program “Poszukiwany”, stwórz i przypisz do odpowiednich zmiennych dwie tablice:

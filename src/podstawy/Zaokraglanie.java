@@ -1,3 +1,5 @@
+package podstawy;
+
 public class Zaokraglanie {
     public static void main(String[] args) {
         double liczba = 3.894;
