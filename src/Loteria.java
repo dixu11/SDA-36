@@ -9,7 +9,7 @@ public class Loteria {
         System.out.println("Wprowadź 6 liczb");
         int[] liczby = new int[6];
 
-        for (int i = 0; i < 6; i++) {
+      /*  for (int i = 0; i < 6; i++) {
             boolean niepoprawna;
             do {
                 System.out.printf("Wprowadź %d liczbę:\n",i+1);
@@ -20,6 +20,15 @@ public class Loteria {
                 }
             }while (niepoprawna);
 
+        }*/
+        //sprytniejsze rozwiązanie
+        for (int i = 0; i < 6; i++) {
+            System.out.printf("Wprowadź %d liczbę:\n", i + 1);
+            liczby[i] = scanner.nextInt();
+            if (liczby[i] < 1 || liczby[i] > 24) {
+                System.out.println("Liczba ze złego zakresu, wprowadź ponownie!");
+                i--;
+            }
         }
 
         System.out.println(Arrays.toString(liczby));
