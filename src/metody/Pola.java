@@ -13,7 +13,6 @@ public class Pola {
 
     public static void main(String[] args) {
         System.out.println(Loteria.pula);
-
         int liczba = 20;
        // System.out.println(liczba);
         System.out.println(Pola.liczba);
