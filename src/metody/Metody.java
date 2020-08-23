@@ -27,6 +27,13 @@ public class Metody {
         System.out.println("Wiadomo...");
     }
 
+
+    public static void przepis() {
+        przygotowanieSkladnikow();
+        gotowanie();
+        podanie();
+    }
+
     //pobierz wiek / czyPelnoletni
     //policz do 10
     //przeliczNaMinuty
