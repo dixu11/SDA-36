@@ -5,7 +5,17 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Loteria {
+
+    static int pula = 6;
+
+
+
+
+
+
     public static void main(String[] args) {
+
+
         //wprowadzanie liczb
         int pula = 6;
         int[] wprowadzone = pobierzLiczby(pula);
