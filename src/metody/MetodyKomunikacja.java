@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class MetodyKomunikacja {
     public static void main(String[] args) {
         double cena = pobierzCeneProduktu();
-        czyMoznaNaRaty();
-
+        czyMoznaNaRaty(cena);
     }
 
     //pobieramy liczbę od 0 do 100_000
@@ -27,8 +26,12 @@ public class MetodyKomunikacja {
 
 
     //otrzymuje liczbę do 100_000, jeśli ta liczba jest powyżej 1000 to raty dostępne
-    static void czyMoznaNaRaty() {
-
+    static void czyMoznaNaRaty(double otrzymanaCena) {
+        if (otrzymanaCena >= 1000) {
+            System.out.println("Raty dostępne");
+        } else {
+            System.out.println("Za mała cena aby dostać na raty");
+        }
     }
 
 }
