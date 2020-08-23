@@ -34,4 +34,9 @@ public class MetodyKomunikacja {
         }
     }
 
+    //aby metoda OTRZYMYWALA dane - należy w nawiasie zadeklarować dowolną ilość zmiennych np. void metoda(int liczba, String tekst)
+    //przy wywoływaniu tej metody TRZEBA dostarczyć pasujące typami wartości w odpowiedniej kolejności aby metoda miała co wstawić do tych zmiennych
+    //np: metoda(10,"hello");
+    // wartości te w trakcie wywołania zostaną zapakowane do zmiennch w metodzie i dostępne w tej metodzie
+
 }
