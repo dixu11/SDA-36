@@ -1,4 +1,4 @@
-package obiektowosc;
+package obiektowosc.konto_bankowe;
 
 public class KontoBankowe {
 

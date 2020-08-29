@@ -1,9 +1,13 @@
-package obiektowosc;
+package obiektowosc.konto_bankowe;
 
 public class Demo {
     public static void main(String[] args) {
+        // referancja    =      obiekt
         KontoBankowe konto1 = new KontoBankowe();
+        // referancja2    =      obiekt2
         KontoBankowe konto2 = new KontoBankowe();
+        // referancja = obiekt2;
+        konto1 = konto2;
 
         konto1.wlasciciel = "Daniel";
         konto2.wlasciciel = "Aleksandra";
