@@ -24,7 +24,7 @@ public class Telefon {
         }
     }
 
-    //zwieksz pamiec => 2x wiecej pamieci
+    //metoda zwieksz pamiec => 2x wiecej pamieci
     //dodatkowa cecha =>  zajetaPamiec
     //nowa metoda uruchomAplikacje => zwiekszac zajeta pamiec o 0,1-0,2 ->
     // ale nie moze przekroczyc dostepnej pamieci
