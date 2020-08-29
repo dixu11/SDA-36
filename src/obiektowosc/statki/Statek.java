@@ -2,9 +2,9 @@ package obiektowosc.statki;
 
 public class Statek {
 
-    double wagaWTonach;
-    String portStart;
-    String portCel;
+   private double wagaWTonach;
+   private String portStart;
+   private String portCel;
 
     public Statek(String portStartu, String portCelu){
         portStart = portStartu;
@@ -24,6 +24,15 @@ public class Statek {
         System.out.println(portStart);
         System.out.println(portCel);
         System.out.println();
+    }
+
+
+    public void setPortCel(String nowyPort){
+        portCel = nowyPort;
+    }
+
+    public String getPortCel(){
+        return portCel;
     }
 
 

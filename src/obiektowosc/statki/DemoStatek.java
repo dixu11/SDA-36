@@ -13,8 +13,12 @@ public class DemoStatek {
      /*   System.out.println(statek.toString());
         System.out.println(statek2.toString());*/
 
+      statek.setPortCel("Gdynia");
+        System.out.println(statek.getPortCel());
+
         System.out.println(statek);
         System.out.println(statek2);
+
 
 
     }
