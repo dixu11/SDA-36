@@ -4,6 +4,7 @@ public class TelefonDemo {
     public static void main(String[] args) {
         Telefon telefon1 = new Telefon();
         Telefon telefon2 = new Telefon();
+
         telefon1.pamiec = 2;
         telefon1.system = "Android";
 
