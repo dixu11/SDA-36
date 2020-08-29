@@ -28,4 +28,16 @@ public class Statek {
 
 
 
+    public String toString(){
+        return "Statek: Waga: " + wagaWTonach + " port startowy: " + portStart + " port docelowy: " + portCel;
+    }
+
+   //generowany
+   /* public String toString() {
+        return "Statek{" +
+                "wagaWTonach=" + wagaWTonach +
+                ", portStart='" + portStart + '\'' +
+                ", portCel='" + portCel + '\'' +
+                '}';
+    }*/
 }
