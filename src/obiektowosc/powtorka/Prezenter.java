@@ -23,9 +23,4 @@ public class Prezenter {
         System.out.println("Najwięcej punktów ma: " + najlepszy);
         return najlepszy;
     }
-
-
-
-
-
 }
