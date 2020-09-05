@@ -1,4 +1,4 @@
-package obiektowe.powtorka;
+package obiektowosc.powtorka;
 
 public class BetterScanner {
 

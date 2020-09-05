@@ -1,4 +1,4 @@
-package obiektowe.powtorka;
+package obiektowosc.powtorka;
 
 import java.time.LocalDate;
 import java.util.Random;
@@ -6,12 +6,13 @@ import java.util.Random;
 public class Klient {
 
     private int id;
+
     private static int poprzednieId = 0;
     private String login;
     private String haslo;
     private LocalDate dataUrodzenia;
     private int punkty = 0;
-  //  private String ranga = "junior";
+    //  private String ranga = "junior";
 
     public Klient(String login, String haslo) {
         this.login = login;
@@ -31,7 +32,7 @@ public class Klient {
 
     private void losujPunkty() {
         Random random = new Random();
-        int wylosowana = random.nextInt(1001)+90;
+        int wylosowana = random.nextInt(1001) + 90;
         punkty = wylosowana;
     }
 
@@ -40,14 +41,14 @@ public class Klient {
         poprzednieId++;
     }
 
-    public void dodajPunkty(int ile){
+    public void dodajPunkty(int ile) {
         punkty += ile;
 
     }
 
     public String getRanga() {
         if (punkty > 1000) {
-            return  "senior";
+            return "senior";
         } else if (punkty > 500) {
             return "regular";
         } else {
@@ -58,6 +59,10 @@ public class Klient {
 
     public int getPunkty() {
         return punkty;
+    }
+
+    public String getLogin() {
+        return login;
     }
 
     @Override
