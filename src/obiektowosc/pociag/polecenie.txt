@@ -1,0 +1,15 @@
+Dodatkowe zadanie z kompozycji do domu: stwórz klasy: PociagTowarowy, Osoba, Towar, Wagon.
+Osoba ma zawierać nazwisko i funkcję (stringi), funkcja to np. maszynista. Towar posiada polę typu String z
+zawartością oraz wagę.  Wagon zawiera wiele towarów i ma swoją maksymalną ładowność.  Pociąg zawiera wiele
+ wagonów i maszynistę.
+
+Po zaprojektowaniu następującej struktury zrób w wagonie metodę która zwraca true lub false w zależności
+czy towary przekraczają ładowność wagonu.
+
+w klasie pociągu zaprojektuj metodę 'czyPociagPrzeladowany', która ma za zadanie sprawdzić czy żaden z
+wagonów nie jest przeładowany i jeśli wszystko jest ok zwróci false, jeśli jest przeładowany ma zwrócić true
+
+nie wiem czy nie wyszło mi za trudne więc jeśli przeraża was to całe zadanie to zaprojektujcie po prostu
+ sam obiekt wagon i jego metodę pomijając klasę PociagTowarowy i Osoba
+
+Wagon i Towar ( w tym wariancie uproszczonym)
