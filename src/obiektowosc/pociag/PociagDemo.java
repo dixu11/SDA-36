@@ -2,9 +2,7 @@ package obiektowosc.pociag;
 
 public class PociagDemo {
     public static void main(String[] args) {
-       // Osoba osoba = new Osoba("Jan", "konduktor");
-
-
+        Osoba osoba = new Osoba("Jan", "konduktor");
         Towar towar = new Towar("węgiel",500);
         Towar towar2 = new Towar("ropa",500);
         Towar[] towary = new Towar[2];

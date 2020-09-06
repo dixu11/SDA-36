@@ -8,4 +8,15 @@ public class Osoba {
         this.nazwisko = nazwisko;
         this.funkcja = funkcja;
     }
+
+    @Override
+    public String toString() {
+        return "Osoba{" +
+                "nazwisko='" + nazwisko + '\'' +
+                ", funkcja='" + funkcja + '\'' +
+                '}';
+    }
 }
+
+//private, default, protected, public
+//klasa  , pakiet , podklasy , dla wszystkich
