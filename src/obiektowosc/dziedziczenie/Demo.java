@@ -7,7 +7,8 @@ public class Demo {
     public static void main(String[] args) {
         //Kot
         Zwierze animal = new Pies("Lucyna", 10);
-        Zwierze animal2 = new Kot();
+        ZwierzeDomowe animal2 = new Kot();
+
 
         //Zwierze jakiesZwierze = new Zwierze("Zofia",20);
 

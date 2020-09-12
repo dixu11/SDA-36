@@ -32,4 +32,3 @@ public class CitizenDemo {
          Obiekt klasy Town ma mieć metody:
         howManyCanVote -  które zwracają ilość osób które mogą głosować
         whoCanVote -  która wypisuje imiona osób które mogą głosować*/
-

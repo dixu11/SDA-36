@@ -1,6 +1,6 @@
 package obiektowosc.dziedziczenie;
 
-public class Kot extends Zwierze{
+public class Kot extends Zwierze implements ZwierzeDomowe{
 
     public Kot(){
        super("mruczek",2);
@@ -19,4 +19,9 @@ public class Kot extends Zwierze{
         System.out.println("Kot gania myszy");
     }
 
+    @Override
+    public void poglaszcz() {
+        System.out.println("Kot cieszy się że głaszczesz");
+        wydajDzwiek();
+    }
 }
