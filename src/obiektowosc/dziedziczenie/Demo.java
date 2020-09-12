@@ -25,7 +25,7 @@ public class Demo {
         //animal.biegaj();
         //polimorfizm: na wspolnej referencji wywolanie tej samej metody daje inny efekt ponieważ mamy do czynienia z innym obiektem
         animal.wydajDzwiek();
-        animal2.wydajDzwiek();
+        //animal2.wydajDzwiek();
 
         if (animal instanceof Pies) {
             System.out.println("Animal to pies");
@@ -48,7 +48,7 @@ public class Demo {
         System.out.println("Wszystkie zwierzeta:");
         List<Zwierze> zwierzeta = new ArrayList<>();
         zwierzeta.add(animal);
-        zwierzeta.add(animal2);
+        //zwierzeta.add(animal2);
         zwierzeta.add(kon);
         zwierzeta.add(slon);
         zwierzeta.add(tygrys);
