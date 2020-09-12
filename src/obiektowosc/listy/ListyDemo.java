@@ -77,20 +77,6 @@ public class ListyDemo {
        /* zwierzeta2.clear();
         System.out.println(zwierzeta2);*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }
