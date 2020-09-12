@@ -6,9 +6,13 @@ import java.util.List;
 public class Demo {
     public static void main(String[] args) {
         //Kot
-        Kot kot = new Kot();
+        Kot kot = new Kot("Lucyna",10);
         //Pies
         Pies pies = new Pies();
+        Kon kon = new Kon("Radek", 7);
+        System.out.println(kot);
+        System.out.println(pies);
+        System.out.println(kon);
 
         kot.polujNaMyszy();
         kot.biegaj();
@@ -19,11 +23,11 @@ public class Demo {
         List<Zwierze> zwierzeta = new ArrayList<>();
         zwierzeta.add(kot);
         zwierzeta.add(pies);
+        zwierzeta.add(kon);
         for (Zwierze zwierze : zwierzeta) {
             zwierze.biegaj();
             zwierze.wydajDzwiek();
         }
-
 
     }
 }

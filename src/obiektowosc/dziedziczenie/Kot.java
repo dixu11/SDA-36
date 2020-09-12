@@ -2,19 +2,14 @@ package obiektowosc.dziedziczenie;
 
 public class Kot extends Zwierze{
 
-    private String imie;
-    private int age;
-
-
-    public Kot(String imie, int age) {
-        this.imie = imie;
-        this.age = age;
+    public Kot(){
+       super("mruczek",2);
     }
 
-    public Kot() {
-        imie = "Mruczek";
-        age = 2;
+    public Kot(String imie,int wiek){
+        super(imie, wiek);
     }
+
 
     public void wydajDzwiek(){
         super.wydajDzwiek();

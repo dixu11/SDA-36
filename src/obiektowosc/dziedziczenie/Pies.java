@@ -2,17 +2,12 @@ package obiektowosc.dziedziczenie;
 
 public class Pies extends Zwierze{
 
-    private String imie;
-    private int wiek;
-
-    public Pies(String imie, int wiek) {
-        this.imie = imie;
-        this.wiek = wiek;
+    public Pies(){
+        super("Burek",3);
     }
 
-    public Pies() {
-        imie = "Burek";
-        wiek = 1;
+    public Pies(String imie, int wiek) {
+        super(imie,wiek);
     }
 
     public void wydajDzwiek() {
