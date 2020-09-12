@@ -1,4 +1,4 @@
-package obiektowosc.interfaces;
+package obiektowosc.interfejsy;
 
 public class RepozytoriumHDD implements Repozytorium{
 

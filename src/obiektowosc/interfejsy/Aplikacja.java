@@ -1,4 +1,4 @@
-package obiektowosc.interfaces;
+package obiektowosc.interfejsy;
 
 //co przy starcie co przy zamknięciu
 public class Aplikacja {
