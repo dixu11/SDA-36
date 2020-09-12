@@ -9,7 +9,7 @@ public class Kon extends Zwierze {
 
     @Override
     public void wydajDzwiek() {
-        super.wydajDzwiek();
+        //super.wydajDzwiek();
         System.out.println("ihaha!");
     }
 }

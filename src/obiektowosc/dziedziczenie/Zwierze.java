@@ -1,6 +1,6 @@
 package obiektowosc.dziedziczenie;
 
-public class Zwierze {
+public abstract class Zwierze {
 
     private String imie;
     private int wiek;
@@ -20,9 +20,7 @@ public class Zwierze {
         System.out.println("Zwierze biegnie");
     }
 
-    public void wydajDzwiek() {
-        System.out.println("Zwierze wydaje dzwiek: ");
-    }
+    public abstract void wydajDzwiek();
 
     @Override
     public String toString() {

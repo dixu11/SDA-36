@@ -12,7 +12,6 @@ public class Kot extends Zwierze{
 
 
     public void wydajDzwiek(){
-        super.wydajDzwiek();
         System.out.println("Miał miał");
     }
 

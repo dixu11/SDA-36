@@ -11,7 +11,6 @@ public class Pies extends Zwierze{
     }
 
     public void wydajDzwiek() {
-        super.wydajDzwiek();
         System.out.println("Hau hau!");
     }
 
