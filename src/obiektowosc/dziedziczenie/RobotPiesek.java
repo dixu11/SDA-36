@@ -1,6 +1,6 @@
 package obiektowosc.dziedziczenie;
 
-public class RobotPiesek  extends Robot implements ZwierzeDomowe, UrzadzenieDomowe{
+public class RobotPiesek  extends Robot implements ZwierzeDomowe, UrzadzenieDomowe {
     @Override
     public void wymienBaterie() {
         System.out.println("Wymienia baterie paliszki");

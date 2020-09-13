@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class WyjatkiDemo {
     public static void main(String[] args) {
-        /*String imie = null;
+       /* String imie = null;
 
         if (imie != null) {
-            System.out.println(imie.toUpperCase());
+        System.out.println(imie.toUpperCase());
         }*/
 
         Scanner scanner = new Scanner(System.in);
@@ -18,8 +18,8 @@ public class WyjatkiDemo {
             System.out.println("Masz " +wiek + " lat");
         }catch (InputMismatchException exception){
             System.out.println("Miałeś podać cyfrę! Dziadu ty...");
-        }finally { //wykona się bez względu na wyjatek
-            System.out.println("Koniec pobierania wieku");
+        }finally {
+            System.out.println("Pobieranie cyfry zakończone");
         }
 
         System.out.println("Coś dalej");

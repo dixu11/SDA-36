@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class WyjatkiDemo2 {
     public static void main(String[] args) {
 
+
+
         File file = new File("cytat.txt");
         try {
             Scanner scanner = new Scanner(file);
