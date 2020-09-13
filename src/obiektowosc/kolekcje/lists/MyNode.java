@@ -1,4 +1,4 @@
-package obiektowosc.kolekcje;
+package obiektowosc.kolekcje.lists;
 
 public class MyNode {
 

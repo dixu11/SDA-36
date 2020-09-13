@@ -1,4 +1,4 @@
-package obiektowosc.kolekcje;
+package obiektowosc.kolekcje.lists;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
