@@ -39,8 +39,7 @@ public class QueueDemo {
         Deque<String> booksAsStack2 = new LinkedList<>();
         booksAsStack2.addLast("Czysty Kod");
         booksAsStack2.addLast("Java 9");
-        System.out.println(booksAsStack2.removeLast());
-
+        System.out.println(booksAsStack2.removeFirst());
 
     }
 }
