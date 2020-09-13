@@ -3,7 +3,7 @@ package obiektowosc.kolekcje.sets;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Person{
+public class Person implements Comparable<Person>{
 
     private String name;
     private LocalDate birthdate;
@@ -23,6 +23,14 @@ public class Person{
                 Objects.equals(birthdate, person.birthdate);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public LocalDate getBirthdate() {
+        return birthdate;
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(name, birthdate);
@@ -34,5 +42,10 @@ public class Person{
                 "name='" + name + '\'' +
                 ", birthdate=" + birthdate +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        return name.compareTo(o.name);
     }
 }
