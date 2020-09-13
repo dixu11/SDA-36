@@ -12,13 +12,14 @@ public class Sklep {
         produkty.add(produkt);
     }
 
-    public String znajdzProduktPoNazwie(String nazwa) {
+    public String znajdzProduktPoNazwie(String nazwa) throws BrakProduktuException {
         for (String produkt : produkty) {
             if (produkt.contains(nazwa)) {
                 return produkt;
             }
         }
-        throw new NoSuchElementException("Nie znaleziono: " + nazwa);
+       // throw new NoSuchElementException("Nie znaleziono: " + nazwa);
+        throw new BrakProduktuException("Nie znaleziono: " + nazwa);
     }
 
     @Override
