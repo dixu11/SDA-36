@@ -7,7 +7,6 @@ public class InterfejsyFunkcyjne {
     public static void main(String[] args) {
         BierzeTekst wyswietlaWielkimi = tekst -> System.out.println(tekst.toUpperCase());
         //Consumer - pobiera dane, nic nie zwraca
-
         //dodajace liczby i zwracajace wynik
         //Operator - przyjmuje dane tego samego typu który zwrca
         //Function - przyjmuje dane i zwraca (mogą być różnych typów)
@@ -35,6 +34,5 @@ public class InterfejsyFunkcyjne {
         Predicate<String> isEmptyString = tekst -> tekst.isEmpty();
         System.out.println(isEmptyString.test(""));
     }
-
 }
 
