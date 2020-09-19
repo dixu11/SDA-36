@@ -1,4 +1,4 @@
-package obiektowosc;
+package obiektowosc.streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
