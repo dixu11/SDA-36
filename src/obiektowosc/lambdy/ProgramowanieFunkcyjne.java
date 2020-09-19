@@ -1,4 +1,4 @@
-package obiektowosc.klasy;
+package obiektowosc.lambdy;
 
 public class ProgramowanieFunkcyjne {
 

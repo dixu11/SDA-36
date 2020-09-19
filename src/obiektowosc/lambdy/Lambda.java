@@ -1,4 +1,4 @@
-package obiektowosc.klasy;
+package obiektowosc.lambdy;
 
 public class Lambda {
 
@@ -13,6 +13,8 @@ public class Lambda {
         ModyfikatorLiczby potegowanie = liczba -> liczba * liczba;
 
         System.out.println(potegowanie.modyfikuj(4));
+
+
     }
 
 
